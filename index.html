@@ -9,69 +9,402 @@
     <title>Главная</title>
 </head>
 <body>
-    <header class="header">
+    <div class="wrapper">
+
+        <header class="header">
 
     <div class="header__info info">
 
         <div class="infoTop">
             <div class="infoTop__container container">
                 <div class="infoTop__location">
-                    <p>Москва</p>
+                    <p>Москва, судостроительная ул., 10, корпус 1</p>
                 </div>
                 <div class="infoTop__worktime">
-                    <p>9:00</p>
+                    <p>Пн-Пт 9:00-18:00</p>
                 </div>
                 <div class="infoTop__email">
-                    <p>hello@bigmir.net</p>
+                    <a href="mailto:artem@gmail.com">info@info.ru</a>
                 </div>  
             </div>
         </div>
 
         <div class="infoBottom">
             <div class="infoBottom__container container">
-                <div class="infoBottom__logo"></div>
+                <a href="./index.html" class="infoBottom__logo">
+                    <img src="./assets/logo.png" alt="logo" class="logo">
+                </a>
 
                 <div class="buttons__group">
-                    <button class="button__secondary">Акнопка два</button>
-                    <button class="button__primary">Кнопка один</button>
+                    <button class="button secondary">
+                        <?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="27" height="27"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:none;stroke:#f35225;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><g id="Layer_1"><rect class="cls-1" width="27" height="27"/></g><g id="Layer_5"><g><rect class="cls-2" x="29.68" y="30.13" width="40.63" height="39.75"/><rect class="cls-2" x="33.72" y="35.26" width="32.57" height="10"/><g><rect class="cls-2" x="33.72" y="51.15" width="8.22" height="4.47"/><rect class="cls-2" x="45.89" y="51.15" width="8.22" height="4.47"/><rect class="cls-2" x="58.07" y="51.15" width="8.22" height="4.47"/><rect class="cls-2" x="33.72" y="60.26" width="8.22" height="4.47"/><rect class="cls-2" x="45.89" y="60.26" width="8.22" height="4.47"/><rect class="cls-2" x="58.07" y="60.26" width="8.22" height="4.47"/></g></g></g></svg>
+                        <p class="button__text">Калькултор распила</p>
+                    </button>
+                    <button class="button">
+                        <?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="27" height="27"><defs><style>.cls-1{fill:transparent;}.cls-2{fill:none;stroke:#f35225;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><g id="Layer_1"><rect class="cls-1" width="100" height="100"/></g><g id="Layer_6"><g><polygon class="cls-2" points="63.37 25.49 63.37 50.08 38.65 65.23 22.73 65.23 22.73 25.49 63.37 25.49"/><polygon class="cls-2" points="57.12 65.23 63.37 61.4 63.37 65.23 57.12 65.23"/><line class="cls-2" x1="29.21" y1="31.24" x2="56.89" y2="31.24"/><line class="cls-2" x1="29.21" y1="37.18" x2="56.89" y2="37.18"/><line class="cls-2" x1="29.21" y1="43.12" x2="56.89" y2="43.12"/><line class="cls-2" x1="29.21" y1="49.06" x2="42.81" y2="49.06"/><g><polygon class="cls-2" points="72.79 55.64 63.37 61.4 57.12 65.23 41.99 74.51 36.95 66.27 38.65 65.23 63.37 50.08 67.74 47.4 72.79 55.64"/><polygon class="cls-2" points="36.95 66.27 41.99 74.51 33.09 74.29 36.95 66.27"/><path class="cls-2" d="M77.27,50.2c0,1.62-.83,3.2-2.31,4.11l-2.17,1.33-5.05-8.23,2.18-1.33c2.27-1.39,5.24-.68,6.63,1.6,.48,.79,.72,1.66,.72,2.52Z"/></g></g></g></svg>
+                        <p class="button__text">Оставить заявку</p>
+                    </button>
                 </div>
 
                 <div class="infoBottom__contacts">
-                    <p class="infoBottom__number"></p>
-                    <p class="infoBottom__number"></p>
+                    <p class="infoBottom__number">+7 (495) 000-00-00</p>
+                    <p class="infoBottom__number">+7 (495) 000-00-00</p>
                 </div>
             </div>
         </div>
 
          <nav class="menu"> 
-            <ul class="menu__list container">
+            <div class="container">
+                <ul class="menu__list">
 
-                <li class="menu__item">
-                    <span class="menu__label">1</span>
+                    <li class="menu__item">
+                        <p href="#" class="menu__link">
+                            Услуги
+                        </p>
+                        <ul class="menu__submenu submenu__list">
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Распил ЛДСП
+                                </a>
+                            </li>
 
-                    <div class="menu__subMenu subMenu">
-                        <ul class="subMenu__list">
-                            <li class="subMenu__item"></li>
-                            <li class="subMenu__item"></li>
-                            <li class="subMenu__item"></li>
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Присадка
+                                </a>
+                            </li>
+
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Обработка стекол и зеркал
+                                </a>
+                            </li>
+
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Выдвижные ящики
+                                </a>
+                            </li>
+
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Двери купе
+                                </a>
+                            </li>
+
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Кухонные корпуса
+                                </a>
+                            </li>
+
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Рамочные фасады МДФ
+                                </a>
+                            </li>
+
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Корпуса для шкафов
+                                </a>
+                            </li>
+
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Торговая мебель
+                                </a>
+                            </li>
+
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Поклейка пластиком
+                                </a>
+                            </li>
+
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Сопутствующие услуги
+                                </a>
+                            </li>
+
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    ЛДСП на заказ
+                                </a>
+                            </li>
+
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">
+                                    Кромление ЛДСП
+                                </a>
+                            </li>
                         </ul>
-                    </div>
-                </li>
-              
-            </ul>
+                        
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Мебели на заказ</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Наши работы</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Доставка и оплата</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Наши цены</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Наши цены</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Скидки</a>
+                    </li>
+                  
+                </ul>
+            </div>
          </nav>
 
     </div>
 </header>
-    <main class="main">
+        <main class="main">
+    
+            <section class="promo">
+                <div class="promo__slider slider">
+                    <img src="./assets/promo_img_left.png" alt="" class="promo__left">
+                    <img src="./assets/promo_img_right.png" alt="" class="promo__right">
+
+                    <div class="container">
+                        <button class="slider__button prev">
+                            <img src="./assets/arrow_left.png" alt="" class="arrow__prev">
+                        </button>
+                        <button class="slider__button next">
+                            <img src="./assets/arrow_right.png" alt="" class="arrow__next">
+                        </button>
+                    </div>
+                    <div class="slider__dots">
+                        <span class="slider__dot _active"></span>
+                        <span class="slider__dot"></span>
+                        <span class="slider__dot"></span>
+                        <span class="slider__dot"></span>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="promo__wrapper">
+                        <h1 class="promo__title">Распил ЛДСП</h1>
+                        <p class="promo__descr">
+                            Услуги распила по вашим размерам на современном оборудовании
+                        </p>
+                        <button class="button promo__button">
+                            Оставить заявку
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="advantages">
+                <div class="container">
+
+                    <h2 class="section__title">Наши преимущества</h2>
+
+                    <ul class="advantages__list">
+                        <li class="advantages__item">
+                            <div class="advantages__iconWrapper">
+                                <img src="./assets/advantages_icon_1.png" alt="" class="advantages__icon">
+                            </div>
+                            <p class="advantages__descr">Европейские  материалы</p>
+                        </li>
+
+                        <li class="advantages__item">
+                            <div class="advantages__iconWrapper">
+                                <img src="./assets/advantages_icon_2.png" alt="" class="advantages__icon">
+                            </div>
+                            <p class="advantages__descr">Гарантия на всю продукцию</p>
+                        </li>
+
+                        <li class="advantages__item">
+                            <div class="advantages__iconWrapper">
+                                <img src="./assets/advantages_icon_3.png" alt="" class="advantages__icon">
+                            </div>
+                            <p class="advantages__descr">Квалифицированный персонал</p>
+                        </li>
+
+                        <li class="advantages__item">
+                            <div class="advantages__iconWrapper">
+                                <img src="./assets/advantages_icon_4.png" alt="" class="advantages__icon">
+                            </div>
+                            <p class="advantages__descr">Высокоточное оборудование</p>
+                        </li>
+                    </ul>
+                </div>
+               
+            </section>
+
+            <section class="prices">
+                <div class="prices__container container">
+                    <h2 class="prices__title section__title">Наши цены</h2>
+
+                    <div class="prices__items">
+
+                        <div class="prices__item">
+                            <div class="prices__itemPhoto">
+                                <img src="./assets/prices_item_1.png" alt="">
+                            </div>
+                            <div class="prices__itemDescr">
+                                <p class="prices__name">Лдсп egger</p>
+                                <p class="prices__price">от 1 403 Р/м2</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__info">
+            <div class="footer__logo">
+                <img src="./assets/logo.png" alt="logo" class="logo">
+            </div> 
+            <p class="footer__copyright">
+                © 2007 — 2022 «Распил 33» — мебельное производство
+            </p>
+            <p class="footer__copyright">
+                Москва, Судостроительная ул., 10, корп. 1
+            </p>
+            <div class="footer__socials socials">
+                <div class="socials__item">
+
+                </div>
+                <div class="socials__item">
+                    
+                </div>
+                <div class="socials__item">
+                    
+                </div>
+                <div class="socials__item">
+                    
+                </div>
+                <div class="socials__item">
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer__categories categories">
+            <ul class="categories__list">
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Услуги
+                    </a>
+                </li>
+
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Мебель на заказ
+                    </a>
+                </li>
+
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Наши работы
+                    </a>
+                </li>
+
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Доставка и оплата
+                    </a>
+                </li>
+
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Наши цены
+                    </a>
+                </li>
+
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Отзывы
+                    </a>
+                </li>
+
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Скидки
+                    </a>
+                </li>
 
 
+            </ul>
+        </div>
 
-    </main>
-    <footer class="footer">
+        <div class="footer__categories categories">
+            <ul class="categories__list">
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Компания
+                    </a>
+                </li>
 
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Обуродование
+                    </a>
+                </li>
+
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Материалы
+                    </a>
+                </li>
+
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Как заказать
+                    </a>
+                </li>
+
+                <li class="categories__item">
+                    <a href="" class="categories__link">
+                        Контакты
+                    </a>
+                </li>
 
     
+
+
+            </ul>
+        </div>
+
+        <div class="footer__contact">
+            <div class="infoBottom__contacts">
+                <p class="infoBottom__number">+7 (495) 000-00-00</p>
+                <p class="infoBottom__number">+7 (495) 000-00-00</p>
+            </div>
+
+            <div class="footer__email">
+                <a href="mailto:artem@gmail.com">info@info.ru</a>
+            </div>
+
+            <button class="button">
+                <?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="27" height="27"><defs><style>.cls-1{fill:transparent;}.cls-2{fill:none;stroke:#f35225;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><g id="Layer_1"><rect class="cls-1" width="100" height="100"/></g><g id="Layer_6"><g><polygon class="cls-2" points="63.37 25.49 63.37 50.08 38.65 65.23 22.73 65.23 22.73 25.49 63.37 25.49"/><polygon class="cls-2" points="57.12 65.23 63.37 61.4 63.37 65.23 57.12 65.23"/><line class="cls-2" x1="29.21" y1="31.24" x2="56.89" y2="31.24"/><line class="cls-2" x1="29.21" y1="37.18" x2="56.89" y2="37.18"/><line class="cls-2" x1="29.21" y1="43.12" x2="56.89" y2="43.12"/><line class="cls-2" x1="29.21" y1="49.06" x2="42.81" y2="49.06"/><g><polygon class="cls-2" points="72.79 55.64 63.37 61.4 57.12 65.23 41.99 74.51 36.95 66.27 38.65 65.23 63.37 50.08 67.74 47.4 72.79 55.64"/><polygon class="cls-2" points="36.95 66.27 41.99 74.51 33.09 74.29 36.95 66.27"/><path class="cls-2" d="M77.27,50.2c0,1.62-.83,3.2-2.31,4.11l-2.17,1.33-5.05-8.23,2.18-1.33c2.27-1.39,5.24-.68,6.63,1.6,.48,.79,.72,1.66,.72,2.52Z"/></g></g></g></svg>
+                <p class="button__text">Оставить заявку</p>
+            </button>
+        </div>
+    </div>
+    
 </footer>
+
+    </div>
 </body>
 </html>
